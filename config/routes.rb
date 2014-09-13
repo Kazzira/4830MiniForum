@@ -1,4 +1,12 @@
 Miniforum::Application.routes.draw do
+  get "forum/home"
+  get "forum/help"
+  get "forum/about"
+  get "forum/contact"
+  root  'forum#home'
+  match '/help',    to:   'forum#help',     via:   'get'
+  match '/about',   to:   'forum#about',    via:   'get'
+  match '/contact', to:   'forum#contact',  via:   'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
