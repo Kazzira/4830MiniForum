@@ -7,8 +7,39 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="title">
+  	<h1 class="main_title">Zach's Mini Forum</h1>
+  </div>
 
-<%= yield %>
-
+  <div class="button_row">
+  	<div class="center">
+  	  <a href="/forum/home">
+  	    <div class="button button-unhover">Forums</div>
+  	  </a>
+  	  <a href="/forum/help">
+  	    <div class="button button-unhover">Help</div>
+  	  </a>
+  	  <div class="button button-unhover">Login</div>
+  	  <a href="/forum/about">
+  	    <div class="button button-unhover">About</div>
+  	  </a>
+    </div>
+  </div>
+  
+  <table border="0">
+  	<td>
+      <div class="left">
+      </div>
+    </td>
+    <td>
+      <div class="content">
+        <%= yield %>
+      </div>
+    </td>
+    <td>
+      <div class="right"></div>
+    </td>
+  </table>
+  <div class="bottom"></div>
 </body>
 </html>
