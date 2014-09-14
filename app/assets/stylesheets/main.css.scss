@@ -1,11 +1,11 @@
 body
 {
   background-color: #EEEEFF;
-  background: -moz-linear-gradient(right, #EEEEFF 15%, #222266 55%, #222266 75%, #111144 90%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#EEEEFF), color-stop(55%,#222266), color-stop(75%,#222266), color-stop(90%,#111144), color-stop(100%,#000017)); /* Chrome,Safari4+ */
-  background: -o-linear-gradient(bottom, #EEEEFF 15%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
-  background: -ms-linear-gradient(bottom, #EEEEFF 15%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
-  background: linear-gradient(to bottom, #EEEEFF 15%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
+  background: -moz-linear-gradient(right, #EEEEFF 9%%, #9999AA 25%, #222266 55%, #222266 75%, #111144 90%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(9%,#EEEEFF), color-stop(25%, #9999AA) color-stop(55%,#222266), color-stop(75%,#222266), color-stop(90%,#111144), color-stop(100%,#000017)); /* Chrome,Safari4+ */
+  background: -o-linear-gradient(bottom, #EEEEFF 9%, #9999AA 25%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
+  background: -ms-linear-gradient(bottom, #EEEEFF 9%, #9999AA 25%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
+  background: linear-gradient(to bottom, #EEEEFF 9%, #9999AA 25%, #222266 55%, #222266 75%, #111144 90%, #000017 100%); 
 
 }
 
