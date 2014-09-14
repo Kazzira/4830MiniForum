@@ -106,7 +106,8 @@ body
   border-width: 1px;
   border-color: black;
 
-  padding-left: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 
 }
 
@@ -128,6 +129,16 @@ body
   border-top-style: solid;
   border-width: 1px;
   border-color: black;
+}
 
+#about-title
+{
+  font-family: times;
+
+}
+
+#about-p, #about-li
+{
+  font-family: arial;
 
 }
