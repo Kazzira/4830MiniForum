@@ -27,10 +27,10 @@ body
 
 .main_title
 {
-  margin-top: 0.1em;
+  margin-top: 0.05em;
   text-align: center;
   font-family: tahoma;
-
+  font-size: 36px;
 
 }
 
@@ -138,12 +138,13 @@ body
 
 #about-title
 {
-  font-family: times;
-
+  font-family: "Lucida Sans Unicode";
+  font-size: 48px;
 }
 
 #about-p, #about-li
 {
   font-family: arial;
+  font-size: 18px;
 
 }
