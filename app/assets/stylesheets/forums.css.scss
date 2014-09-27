@@ -1,3 +1,195 @@
-// Place all the styles related to the Forums controller here.
+// Place all the styles related to the forums controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.board-container
+{
+  width: 100%;
+  background-color: #BB99AA;
+  height: 3.2em;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-width: 0.17em;
+  border-color: #886677;
+
+  margin-left: -0.5em;
+  padding-right: 0.4em;
+  margin-top: 0.1em;
+
+  display: inline-table;
+
+}
+
+.board-container-highlight
+{
+  background-color: #DDBBCC;
+  border-color: #AA8899;
+}
+
+.board-container-left
+{
+  width: 8%;
+  height: 100%;
+  margin-top: -0.1em;
+}
+
+.board-container-right
+{
+  width: 14%;
+}
+
+.board-container-middle
+{
+  width: 74%;
+}
+
+.board-container-parts
+{
+  height: 100%;
+  display: table-cell;
+}
+
+.main-page-title-container
+{
+  width: 100%;
+  height: 2.5em;
+  background-color: #CCAABB;
+  margin-top: -0.0em;
+  margin-left: -0.5em;
+  padding-right: 0.3em;
+  border-radius: 5px;
+
+  border-style: solid;
+  border-width: 0.17em;
+  border-color: #886677;
+
+}
+.main-page-title
+{
+  margin-top: -0.001em;
+  font-family: tahoma;
+  font-size: 20pt;
+  color: #553344;
+  text-align: center;
+
+  font-spacing: 2em;
+
+}
+
+.board-title
+{
+  font-family: verdana;
+  color: #553344;
+  font-size: 16pt;
+  font-spacing: 0.1em;
+
+  margin-top: 0.2em; 
+
+}
+
+.board-title-highlight
+{
+  color: #556677;
+
+}
+
+.board-title-cont-highlight
+{
+  color: #775566;
+}
+
+.board-description
+{
+	font-family: arial;
+	color: #331144;
+	font-size: 10pt;
+	font-spacing: 0.3em;
+}
+
+.board-description-cont-highlight
+{
+  color: #553344;
+
+}
+
+.board-button
+{
+  height: 1.4em;
+  background-color: #AA8899;
+  width: 5.5em;
+
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #553344;
+  text-align: center;
+
+  font-family: verdana;
+  color: #442233;
+  margin-bottom: 0.2em;
+  margin-left: 0.3em;
+}
+
+.board-button-cont-highlight
+{
+  background-color: #CCAABB;
+  color: #664455;
+  border-color: #775566;
+}
+
+.board-button-highlight
+{
+  background-color: #8899AA;
+  color: #223344;
+  border-color: #334455;
+}
+
+.main-admin
+{
+  height: 1.6em;
+  width: 100%;
+
+  background-color: #CCAABB;
+
+  margin-left: -0.5em;
+  padding-right: 0.5em;
+
+}
+
+.main-admin-button
+{
+  height: 1.3em;
+  width: 14em;
+  background-color: #BB99AA;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #664455;
+  text-align: center;
+
+  font-family: verdana;
+  color: #553344;
+
+  margin: auto;
+  padding-bottom: 0.1em;
+}
+
+
+.main-admin-button-highlight
+{
+  background-color: #99AABB;
+  border-color: #667788;
+  color: #556677;
+
+}
+
+.no-deco a:link, .no-deco a:visited, .no-deco a:hover, .no-deco a:active,
+{
+	text-decoration: none;
+
+}
+
+
+.button-top
+{
+
+  margin-bottom: 0.2em;
+
+}

@@ -1,7 +1,5 @@
 class ForumsController < ApplicationController
-  def help
-  end
-
-  def about
-  end
+	def index
+		@forums = Forum.all
+	end
 end
