@@ -1,0 +1,31 @@
+<div class="main-page-title-container">
+	<h1 class="main-page-title">CSCI MiniForums</h1>
+</div>
+
+<div class="main-admin no-deco">
+	<%= link_to new_forum_path do %>
+		<div class="main-admin-button">Create New Board</div>
+	<% end %>
+</div>
+
+<% @forums.each do |forum| %>
+	<div class="board-container no-deco">
+		<div class="board-container-left">
+			<%= link_to edit_forum_path(forum) do %>
+				<div class="board-button button-top">Edit</div>
+			<% end %>
+			<%= link_to forum_path(forum), method: :delete do %>
+			<div class="board-button">Delete</div>
+			<% end %>
+		</div>
+		<div class="board-container-parts board-container-middle">
+			<%= link_to forum_path(forum) do %>
+				<span class="board-title"><%= forum.title %></span>
+			<% end %> 
+			<br />
+			<span class="board-description"><%= forum.description %></span>
+		</div>
+		<div class="board-container-parts board-container-right">
+		</div>
+	</div>
+<% end %>
