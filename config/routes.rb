@@ -4,7 +4,7 @@ Miniforum::Application.routes.draw do
   resources :forums
   match '/help',    to:   'static#help',     via:   'get'
   match '/about',   to:   'static#about',    via:   'get'
-  match '/forums',  to:   'forums#show',     via:   'get'   
+  match '/',        to:   'forums#index',    via:   'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
