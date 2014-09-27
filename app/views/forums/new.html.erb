@@ -1,0 +1,17 @@
+
+<div align="center" padding-top="9em">
+	<h1 id="about-title">Create New Board</h1>
+	<%= form_for (@forum) do |f| %>
+		<p>
+			<%= f.label :title %><br />
+			<%= f.text_field :title %>
+		</p>
+		<p>
+			<%= f.label :description %><br />
+			<%= f.text_field :description %>
+		</p>
+		<p>
+			<%= f.submit %>
+		</p>
+	<% end %>
+</div>

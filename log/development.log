@@ -26332,3 +26332,825 @@ Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:02:31 -050
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:02:31 -0500
+
+
+Started GET "/forums/" for 127.0.0.1 at 2014-09-27 15:13:28 -0500
+Processing by ForumsController#index as HTML
+  [1m[35mForum Load (2.0ms)[0m  SELECT "forums".* FROM "forums"
+  Rendered forums/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 163ms (Views: 141.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:29 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:13:32 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (383.0ms)
+Completed 200 OK in 552ms (Views: 514.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:13:33 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 210ms (Views: 208.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:34 -0500
+
+
+Started POST "/forums" for 127.0.0.1 at 2014-09-27 15:13:50 -0500
+Processing by ForumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"890x3M9o4/zk284vyFqFR5bp5O3f0rh3FcTJy9eblLI=", "forum"=>{"title"=>"Second Forum", "description"=>"This is the second forum."}, "commit"=>"Create Forum"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (325.5ms)[0m  INSERT INTO "forums" ("created_at", "description", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sat, 27 Sep 2014 20:13:50 UTC +00:00], ["description", "This is the second forum."], ["title", "Second Forum"], ["updated_at", Sat, 27 Sep 2014 20:13:50 UTC +00:00]]
+  [1m[36m (191.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/forums
+Completed 302 Found in 572ms (ActiveRecord: 517.5ms)
+
+
+Started GET "/forums" for 127.0.0.1 at 2014-09-27 15:13:51 -0500
+Processing by ForumsController#index as HTML
+  [1m[35mForum Load (1.0ms)[0m  SELECT "forums".* FROM "forums"
+  Rendered forums/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 136ms (Views: 133.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:13:52 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:14:02 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 119ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 181ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:03 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:04 -0500
+
+
+Started POST "/forums" for 127.0.0.1 at 2014-09-27 15:14:21 -0500
+Processing by ForumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"890x3M9o4/zk284vyFqFR5bp5O3f0rh3FcTJy9eblLI=", "forum"=>{"title"=>"Notes", "description"=>"Notes of a kind."}, "commit"=>"Create Forum"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.0ms)[0m  INSERT INTO "forums" ("created_at", "description", "title", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Sat, 27 Sep 2014 20:14:21 UTC +00:00], ["description", "Notes of a kind."], ["title", "Notes"], ["updated_at", Sat, 27 Sep 2014 20:14:21 UTC +00:00]]
+  [1m[36m (126.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/forums
+Completed 302 Found in 162ms (ActiveRecord: 146.2ms)
+
+
+Started GET "/forums" for 127.0.0.1 at 2014-09-27 15:14:21 -0500
+Processing by ForumsController#index as HTML
+  [1m[35mForum Load (1.0ms)[0m  SELECT "forums".* FROM "forums"
+  Rendered forums/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 133ms (Views: 130.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:14:22 -0500
+
+
+Started GET "/forums/3" for 127.0.0.1 at 2014-09-27 15:17:52 -0500
+Processing by ForumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered forums/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forums/3" for 127.0.0.1 at 2014-09-27 15:17:52 -0500
+Processing by ForumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendered forums/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:53 -0500
+
+
+Started GET "/forums" for 127.0.0.1 at 2014-09-27 15:17:55 -0500
+Processing by ForumsController#index as HTML
+  [1m[36mForum Load (1.0ms)[0m  [1mSELECT "forums".* FROM "forums"[0m
+  Rendered forums/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 156ms (Views: 152.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/forums" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+Processing by ForumsController#index as HTML
+  [1m[35mForum Load (1.0ms)[0m  SELECT "forums".* FROM "forums"
+  Rendered forums/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 134ms (Views: 131.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:56 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:57 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:17:57 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:21:04 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 128ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:21:04 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 195ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:05 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:21:32 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 243ms (Views: 241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:21:33 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:22:07 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 150ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:08 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:22:29 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 171ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:30 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:30 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:30 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:31 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:22:51 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 153ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:22:52 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:24:00 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 146ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:01 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:02 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:24:15 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 153ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:16 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:17 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:17 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:17 -0500
+
+
+Started GET "/forums/new" for 127.0.0.1 at 2014-09-27 15:24:58 -0500
+Processing by ForumsController#new as HTML
+  Rendered forums/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 158ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forums.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:58 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:58 -0500
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/forums.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/jquery-1.11.1.min.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 15:24:59 -0500
