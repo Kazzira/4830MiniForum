@@ -13,15 +13,18 @@
 
   <div class="button_row">
   	<div class="center">
-  	  <a href="/forum/home">
+  	  <%= link_to controller: "forums", action: "show" do  %>
   	    <div class="button button-unhover">Forums</div>
+      <% end %>
   	  </a>
-  	  <a href="/forum/help">
+  	  <%= link_to "/help" do  %>
   	    <div class="button button-unhover">Help</div>
+      <% end %>
   	  </a>
   	  <div class="button button-unhover">Login</div>
-  	  <a href="/forum/about">
+  	  <%= link_to "/about" do  %>
   	    <div class="button button-unhover">About</div>
+      <% end %>
   	  </a>
     </div>
   </div>
