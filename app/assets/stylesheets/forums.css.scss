@@ -5,7 +5,6 @@
 {
   width: 100%;
   background-color: #BB99AA;
-  height: 3.2em;
   border-radius: 0.3em;
   border-style: solid;
   border-width: 0.17em;
@@ -16,6 +15,30 @@
   margin-top: 0.1em;
 
   display: inline-table;
+
+}
+
+.message-board
+{
+  height: 3.2em;
+}
+
+.board-thread
+{
+
+  height: 2.1em;
+
+}
+
+.thread-topic
+{
+  min-height: 5.2em;
+}
+
+textarea#body
+{
+  height: 12em;
+  width: 18.7em;
 
 }
 

@@ -1,0 +1,15 @@
+<% @posts.each do |post| %>
+	<div class="main-admin">
+		<table width="100%">
+			<tr>
+				<td width="20%"><%= @topic.title %></td>
+				<td width="50%" align="right" >Posted by <%= post.user  %></td>
+				<td width="30%" align="right" class="no-deco">
+						<div class="main-admin-button">Reply</div>
+			</tr>
+		</table>
+	</div>
+	<div class="board-container thread-topic">
+		<span class="board-description"><%= post.body.html_safe %></span>
+	</div>
+<% end %>

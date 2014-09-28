@@ -14,4 +14,9 @@ class ForumsController < ApplicationController
 		@forum.save
 		redirect_to '/forums'
 	end
+
+	def show
+		@forum = Forum.find(params[:id])
+		@topics = @forum.topics.all
+	end
 end

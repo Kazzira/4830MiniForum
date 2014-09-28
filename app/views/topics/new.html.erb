@@ -1,0 +1,22 @@
+<div align="center" padding-top="9em">
+	<h1 id="about-title">Create New Thread</h1>
+	<%= form_tag action: 'create' do %>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><%= text_field_tag "user_name" %></td>
+			</tr>
+			<tr>
+				<td>Title:</td>
+				<td><%= text_field_tag "title" %></td>
+			</tr>
+		<tr>
+			<td>Write down below</td>
+			<td><%= text_area_tag "body" %></td>
+		</tr>
+		<input id="tforum" name="forum" type="hidden" value="<%= params[:forum] %>" />
+		<tr colspan="2">
+			<td><%= submit_tag 'Create Topic' %></td>
+		</tr>
+	<% end %>
+</div>
