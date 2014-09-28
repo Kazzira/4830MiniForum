@@ -12,7 +12,7 @@ class TopicsController < ApplicationController
 		@post = Post.new(user: params["user_name"], body: (params["body"]), topic: @topic)
 		@post.save
 		@topic.save
-		redirect_to topics_path(@topic)
+		redirect_to topic_path(@topic.id)
 	end
 
 	def show
