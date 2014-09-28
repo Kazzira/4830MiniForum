@@ -9,7 +9,7 @@ class TopicsController < ApplicationController
 	def create
 
 		@topic = Topic.new(user_name: params["user_name"], title: params["title"], forum: Forum.find(params["forum"].to_i))
-		@post = Post.new(user: params["user_name"], body: (params["body"]), topic: @topic)
+		@post = Post.new(user: params["user_name"], body: convert(params["body"]), topic: @topic)
 		@post.save
 		@topic.save
 		redirect_to topic_path(@topic.id)
