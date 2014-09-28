@@ -21,7 +21,7 @@ class ForumsController < ApplicationController
 	end
 
 	def destroy
-		Forum.find(params[:id]).destroy
+		#Forum.find(params[:id]).destroy
 
 		redirect_to '/forums'
 	end
