@@ -4,6 +4,6 @@ module PostsHelper
 	end
 
 	def convert(text)
-		text.gsub!("\\r\\n" '<br />')
+		text.gsub!(/\n/, '<br />')
 	end
 end

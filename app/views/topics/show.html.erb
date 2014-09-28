@@ -3,9 +3,23 @@
 		<table width="100%">
 			<tr>
 				<td width="20%"><%= @topic.title %></td>
-				<td width="50%" align="right" >Posted by <%= post.user  %></td>
-				<td width="30%" align="right" class="no-deco">
-						<div class="main-admin-button">Reply</div>
+				<td width="60%" align="right" >Posted by <%= post.user  %></td>
+				<td width="width-small" align="left" class="no-deco">
+					<%= link_to new_post_path(topic: @topic) do %>
+						<div class="main-admin-button" id="width-small">Reply</div>
+					<% end %>
+				</td>
+				<td width="width-small" align="left" class="no-deco">
+					<%= link_to edit_post_path(post) do %>
+						<div class="main-admin-button" id="width-small">Edit</div>
+					<% end %>
+				</td>
+				<td width="width-small" align="left" class="no-deco">
+					<%= link_to post_path(post), method: :delete do %>
+						<div class="main-admin-button" id="width-small">Delete</div>
+					<% end %>
+				</td>
+
 			</tr>
 		</table>
 	</div>

@@ -1,0 +1,16 @@
+	<h1 id="about-title">Reply to Thread</h1>
+	<%= form_tag action: 'create' do %>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><%= text_field_tag "user" %></td>
+			</tr>
+			<tr>
+				<td>Write down below</td>
+				<td><%= text_area_tag "body" %></td>
+			</tr>
+			<input id="topic" name="topic" type="hidden" value="<%= params[:topic] %>" />
+			<tr colspan="2">
+				<td><%= submit_tag 'Submit Reply' %></td>
+			</tr>
+	<% end %>

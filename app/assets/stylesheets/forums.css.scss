@@ -180,7 +180,6 @@ textarea#body
 .main-admin-button
 {
   height: 1.3em;
-  width: 14em;
   background-color: #BB99AA;
   border-style: solid;
   border-width: 0.1em;
@@ -194,6 +193,20 @@ textarea#body
   padding-bottom: 0.1em;
 }
 
+#width-small
+{
+  width: 4em;
+}
+
+#width-medium
+{
+  width: 10em;
+}
+
+#width-large
+{
+  width: 14em;
+}
 
 .main-admin-button-highlight
 {

@@ -3,6 +3,7 @@ Miniforum::Application.routes.draw do
   get "static/about"
   resources :forums
   resources :topics
+  resources :posts
   match '/help',    to:   'static#help',     via:   'get'
   match '/about',   to:   'static#about',    via:   'get'
   match '/',        to:   'forums#index',    via:   'get'
