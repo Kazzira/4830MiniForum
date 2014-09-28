@@ -10,6 +10,12 @@ class ForumsController < ApplicationController
 	end
 
 	def create
+		title = params[:forum][:title]
+
+		if title.nil? || title.empty?
+			redirect_to new_forum_path
+			return
+		end
 		@forum = Forum.new(forum_params)
 		@forum.save
 		redirect_to '/forums'
@@ -21,7 +27,7 @@ class ForumsController < ApplicationController
 	end
 
 	def destroy
-		#Forum.find(params[:id]).destroy
+		Forum.find(params[:id]).destroy
 
 		redirect_to '/forums'
 	end

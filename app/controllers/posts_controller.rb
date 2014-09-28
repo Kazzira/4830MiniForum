@@ -9,7 +9,15 @@ class PostsController < ApplicationController
   end
 
   def create
-  	@post = Post.new(user: params["user"], body: convert(params["body"]), topic: Topic.find(params["topic"].to_i))
+  	user = params["user"]
+  	body = convert(params["body"])
+
+  	user = "Anonymous" if user.nil? || user.empty?
+  	if body.nil? || body.empty?
+  		redirect_to new_post_path(topic: params["topic"].to_i) if body.nil? || body.empty?
+  		return
+  	end
+  	@post = Post.new(user: user, body: body, topic: Topic.find(params["topic"].to_i))
   	@post.save
 
   	redirect_to topic_path(params["topic"])
