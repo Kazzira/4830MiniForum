@@ -2,24 +2,25 @@
 	<div class="main-admin">
 		<table width="100%">
 			<tr>
-				<td width="50%"><%= @topic.title %></td>
-				<td width="30%" align="right" >Posted by <%= post.user  %></td>
+				<td width="50%"><span class="board-description"><%= @topic.title %></span></td>
+				<td width="30%" align="right" ><span class="board-description">Posted by <%= post.user  %></span></td>
 				<td width="width-small" align="left" class="no-deco">
 					<%= link_to new_post_path(topic: @topic) do %>
 						<div class="main-admin-button" id="width-small">Reply</div>
 					<% end %>
 				</td>
-				<td width="width-small" align="left" class="no-deco">
-					<%= link_to edit_post_path(post) do %>
-						<div class="main-admin-button" id="width-small">Edit</div>
-					<% end %>
-				</td>
-				<td width="width-small" align="left" class="no-deco">
-					<%= link_to post_path(post), method: :delete do %>
-						<div class="main-admin-button" id="width-small">Delete</div>
-					<% end %>
-				</td>
-
+				<% if false %>
+					<td width="width-small" align="left" class="no-deco">
+						<%= link_to edit_post_path(post) do %>
+							<div class="main-admin-button" id="width-small">Edit</div>
+						<% end %>
+					</td>
+					<td width="width-small" align="left" class="no-deco">
+						<%= link_to post_path(post), method: :delete do %>
+							<div class="main-admin-button" id="width-small">Delete</div>
+						<% end %>
+					</td>
+				<% end %>
 			</tr>
 		</table>
 	</div>
