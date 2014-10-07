@@ -9,6 +9,19 @@ group :development do
  # gem 'pg', '0.15.1'
 end
 
+group :development, :test do
+	gem 'rspec-rails', '~> 2.0'
+	gem 'factory_girl_rails'
+end
+
+group :test do
+	gem 'pg', '0.15.1'
+	gem 'cucumber-rails', require: false
+	gem 'shoulda-matchers'
+	gem 'database_cleaner'
+	gem 'selenium-webdriver'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
